@@ -50,7 +50,7 @@ To test with unit test:
 python -m unittest test
 ```
 
-Below I a detailed instruction on how to build an example workflow
+Below is an example on how to build an publish the workflow
 ``` 
 python builder.py -i
 Workflow = BuildWorkflow()

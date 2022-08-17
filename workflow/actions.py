@@ -20,7 +20,7 @@ class SendEmail(BaseAction):
             return 'Cannot execute send email Task, Moving to the next task'
 
 
-class Adddelay:
+class Adddelay(BaseAction):
     def __init__(self):
         BaseAction.__init__(self)
 
@@ -30,7 +30,7 @@ class Adddelay:
         else:
             return 'Cannot execute Adddelay Task, Moving to the next task'
 
-class AddToList:
+class AddToList(BaseAction):
     def __init__(self):
         BaseAction.__init__(self)
 
@@ -41,7 +41,7 @@ class AddToList:
             return 'Cannot execute AddToList Task, Moving to the next task'
 
 
-class RemoveFromList:
+class RemoveFromList(BaseAction):
     def __init__(self):
         BaseAction.__init__(self)
 
@@ -51,7 +51,7 @@ class RemoveFromList:
         else:
             return 'Cannot execute RemoveFromList Task, Moving to the next task'
 
-class EjectfromJourney:
+class EjectfromJourney(BaseAction):
     def __init__(self):
         BaseAction.__init__(self)
 
@@ -62,7 +62,7 @@ class EjectfromJourney:
             return 'Cannot execute Adddelay Task, Moving to the next task'
 
 
-class WebinarAutoRegister:
+class WebinarAutoRegister(BaseAction):
     def __init__(self):
         BaseAction.__init__(self)
 

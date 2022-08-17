@@ -6,10 +6,18 @@ To build a workflow, we start by adding a trigger (we do not add any trigger aft
 We continue by adding actions and conditional nodes to determine if the actions downstream should be executed.
 ##
 
-Below is a list of supported triggers, actions and conditional nodes
+Below is a list of supported triggers, actions and conditional nodes(case sensitive!)
+
 Actions:
 
+- SendEmail
+- AddToList
+- WebinarAutoRegister
+- RemoveFromList
+- EjectfromJourney
+- Adddelay
 
+Conditionals:
 
 
 ##

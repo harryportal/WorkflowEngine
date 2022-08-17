@@ -3,7 +3,7 @@ An implementation of a workflow engine built with Python that allows us to build
 a trigger, tasks/actions and conditional nodes.
 
 To build a workflow, we start by adding a trigger (we do not add any trigger after this)
-We continue by adding actions and conditional nodes to determine if the actions downstream should be executed.
+We continue by adding actions and conditional nodes to determine if the actions downstream should be executed.An action added immediately after a conditional node that returns false won't be executed
 ##
 
 Below is a list of supported triggers, actions and conditional nodes(case sensitive!)

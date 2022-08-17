@@ -18,12 +18,16 @@ Actions:
 - Adddelay
 
 Conditionals:
-- Campaign(status)
+- Campaign(status)  
+     - status_list = ['Not registered','Registered', 'Attended', 'did not attend']
 - Is_OnList(status)
+     - status_list = ['Is on this list or segment', 'Is not on this list or segment']
 - CheckField(status)
 - Check_Purchasestatus(status)
+     - status_list = ['Has purchased', 'Has not purchased', 'Abandoned', 'cart checkout']
 - Has_Visitedpage(status)
 - Check_Webinar(status)
+     - status_list = ['Not registered','Registered', 'Attended', 'did not attend']
 
 Triggers:
 -  optin

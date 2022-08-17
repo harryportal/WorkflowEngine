@@ -52,7 +52,7 @@ python -m unittest test
 
 Below is an example on how to build an publish the workflow
 ``` 
-python builder.py -i
+python -i builder.py 
 Workflow = BuildWorkflow()
 workflow.add_trigger(optin)
 workflow.add_action(SendEmail)

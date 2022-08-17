@@ -50,5 +50,11 @@ To test with unit test:
 python -m unittest test
 ```
 
-Below I a detailed instruction on how to test the work engine manually 
+Below I a detailed instruction on how to build an example workflow
+``` 
+python builder.py -i
+Workflow = BuildWorkflow()
+workflow.add_trigger(optin)
+workflow.add_action(
+```
 

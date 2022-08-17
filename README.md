@@ -18,6 +18,13 @@ Actions:
 - Adddelay
 
 Conditionals:
+- Campaign(status)
+- Is_OnList(status)
+- CheckField(status)
+- Check_Purchasestatus(status)
+- Has_Visitedpage(status)
+- Check_Webinar(status)
+
 
 
 ##

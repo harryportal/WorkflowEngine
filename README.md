@@ -55,6 +55,9 @@ Below I a detailed instruction on how to build an example workflow
 python builder.py -i
 Workflow = BuildWorkflow()
 workflow.add_trigger(optin)
-workflow.add_action(
+workflow.add_action(SendEmail)
+workflow.add_condition(Webinar_Status('Not registered')
+workflow.add_action('AddtoList')
+workflow.publish()
 ```
 

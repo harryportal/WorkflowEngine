@@ -30,7 +30,9 @@ Triggers:
 - time_trigger
 - campaign_activity
 - remove_from_list
-- purchase_acitivity(
+- purchase_acitivity
+- page_visited_trigger
+- list_trigger
 
 
 ##

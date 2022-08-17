@@ -52,3 +52,4 @@ class BuildWorkflow:
         print('#############Welcome to Python WorkEngine Simulation by Harry!################')
         for index, task in enumerate(self.workflowlist):
             print(f'Task{index + 1}: {task}')
+            sleep(1)

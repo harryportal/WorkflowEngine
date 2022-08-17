@@ -57,7 +57,8 @@ Workflow = BuildWorkflow()
 workflow.add_trigger(optin)
 workflow.add_action(SendEmail)
 workflow.add_condition(Webinar_Status('Not registered')
-workflow.add_action('AddtoList')
-workflow.publish()
+workflow.add_action(AddtoList)
+workflow.add_action(Adddelay)
+workflow.publish_workflow()
 ```
 

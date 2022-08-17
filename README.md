@@ -25,6 +25,12 @@ Conditionals:
 - Has_Visitedpage(status)
 - Check_Webinar(status)
 
+Triggers:
+-  optin
+- time_trigger
+- campaign_activity
+- remove_from_list
+- purchase_acitivity(
 
 
 ##

@@ -52,12 +52,3 @@ class BuildWorkflow:
         print('#############Welcome to Python WorkEngine Simulation by Harry!################')
         for index, task in enumerate(self.workflowlist):
             print(f'Task{index + 1}: {task}')
-
-
-
-new = BuildWorkflow()
-new.add_trigger(optin)
-new.add_condition(Webinar_Status('Not registered'))
-new.add_action(SendEmail)
-new.add_action(SendEmail)
-new.publish_workflow()
